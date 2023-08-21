@@ -1,0 +1,23 @@
+   .navegador {
+    background-color: $fondo_morado;
+    margin-top: 25px;
+    margin-right: 25px;
+    padding-top: 10px;
+    border-radius: 6px;
+   
+    .letramenu{
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size:30px;
+    font-family: $letra;
+    color:$color_letra_menu;
+    &:hover{
+        background-color: $sobre_fondo;
+        color: $sobre_letra;
+        border-radius: 6px;
+    }
+}
+
+
+
+}
