@@ -59,6 +59,46 @@ h2 {
   border-radius: 10px;
 }
 
+.imagenMia {
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+}
+
+#mariaLaura {
+  margin-top: 1.5rem;
+  color: #04513c;
+  font-size: 3.5rem;
+}
+
+.sobreMi {
+  font-size: 1.5rem;
+  color: #2f333c;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.imagenHabilidades {
+  width: 400px;
+  height: 300px;
+  margin-right: 80px;
+  margin-bottom: 4rem;
+  border-radius: 6px;
+}
+
+@media (min-width: 900px) {
+  .sobreMi {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .imagenHabilidades {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 155px;
+  }
+}
+
 footer {
   background-color: #04513c;
   position: absolute;
