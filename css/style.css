@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-image: url(../Multimedia/violet-watercolor-texture-background.webp);
   position: relative;
@@ -6,8 +7,8 @@ body {
 
 .navegador {
   background-color: #4f2152;
-  margin-top: 25px;
-  margin-right: 25px;
+  margin-top: 0 px;
+  margin-right: 0px;
   padding-top: 10px;
   border-radius: 6px;
 }
@@ -24,45 +25,10 @@ body {
   border-radius: 6px;
 }
 
-.titulo h1 {
-  margin-top: 35px;
-  color: #04513c;
-  font-size: 3.5rem;
-}
-
-.textoSecundario {
-  font-size: 1.5rem;
-  margin-top: 2.5rem;
-  font-family: "Times New Roman", Times, serif;
-}
-
-h2 {
-  margin-top: 20px;
-  color: #04513c;
-  font-size: 3.5rem;
-  margin-bottom: 3rem;
-}
-
-#imagenPorta {
-  width: 400px;
-  height: 200px;
-  margin-left: 65px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-}
-
-#imagenColor {
-  width: 400px;
-  height: 200px;
-  margin-left: 65px;
-  margin-bottom: 105px;
-  border-radius: 10px;
-}
-
 .imagenMia {
   margin-top: 25px;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
 }
 
 #mariaLaura {
@@ -72,17 +38,83 @@ h2 {
 }
 
 .sobreMi {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #2f333c;
   font-family: "Times New Roman", Times, serif;
+  margin-top: 25px;
 }
 
-.imagenHabilidades {
-  width: 400px;
-  height: 300px;
-  margin-right: 80px;
-  margin-bottom: 4rem;
-  border-radius: 6px;
+.informacion {
+  padding-top: 10px;
+  padding-bottom: 100px;
+  width: 60%;
+}
+.informacion .borde {
+  border: 1.5px solid #4f2152;
+  border-radius: 3px;
+}
+.informacion .propiedadesBotonAcordion {
+  background-color: #f6e7f7;
+  font-size: 1.8rem;
+  color: #04513c;
+  font-weight: 500;
+}
+
+.formacion {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.formacion li::before {
+  content: "•";
+  color: #4f2152;
+  margin-right: 5px;
+}
+
+li {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #04513c;
+  font-weight: 700;
+}
+li .formacionD {
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #2f333c;
+}
+
+.formacion li:nth-child(1) p svg {
+  padding-bottom: 15px;
+}
+
+.formacion li:nth-child(2) p svg {
+  padding-bottom: 15px;
+}
+
+.formacion li:nth-child(3) p svg {
+  padding-bottom: 15px;
+}
+
+.formacion li:nth-child(4) p svg {
+  padding-bottom: 15px;
+}
+
+.formacion li:nth-child(5) p svg {
+  padding-bottom: 15px;
+}
+
+.formacion li:nth-child(6) p svg {
+  padding-bottom: 15px;
+}
+
+.infoContacto {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  color: #04513c;
+  font-weight: 700;
 }
 
 #tituloContacto {
@@ -175,9 +207,9 @@ h2 {
   margin-bottom: 155px;
 }
 
-@media (min-width: 900px) {
-  .sobreMi {
-    font-size: 2.5rem;
+@media (max-width: 320px) {
+  .informacion {
+    width: 95%;
   }
 }
 
