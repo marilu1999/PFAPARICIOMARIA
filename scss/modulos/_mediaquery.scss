@@ -1,5 +1,85 @@
+/* FORMATO RESPONSIVE INDEX*/
 .informacion{
     @media (max-width:320px){
         width: 95%;
     }
+}
+
+/*FORMATO RESPONSIVE SOBRE MI*/
+/*TABLET*/
+@media (max-width: 768px) {
+    /*header*/
+    nav{
+      background-color: $fondo_morado;
+      padding-right: 500px;
+    }
+    
+    /*main*/
+    /*imagenes*/
+    #imagenPorta{
+        width: 80%; 
+        height: 300px; 
+        margin-left:90px;
+    }
+    #imagenColor {
+      width: 80%; 
+      height: 300px; 
+      margin-left:90px ; 
+    }
+    /*letras del titulo y parrafos color*/
+    #h2Color{
+        margin-bottom: 30px;
+    }
+    #pColor{
+        margin-top: 0px; 
+        margin-bottom: 35px;
+     }
+     /*cajas habilidades*/
+     .igualarCuadro{
+        height: 190px;
+     }
+     #h2Centrado{
+        padding-top:10px ;
+     }
+     #pCentrado{
+        padding-top: 25px;
+     }
+     
+    
+}
+/*Sobre mi - Movil*/
+@media (max-width:320px){
+    header{
+        margin-left: 300px;
+        margin-top: 5px;   
+    }
+    h1{
+        margin-bottom: 0px;
+        font-size: 1rem;
+    }
+        #soyMovil{
+        padding-left: 25px;
+        font-size: 1.3rem;
+    }
+    /*imagenes*/
+    #imagenPorta{
+        width: 80%; 
+        height: 200px; 
+        margin-left:30px;
+    }
+    #imagenColor {
+      width: 80%; 
+      height: 200px; 
+      margin-left:30px ; 
+    }
+    .habilidadesM{
+        font-size: 3rem;
+        margin-bottom: 25px;
+    }
+    .igualarCuadro{
+        margin-bottom: 15px;
+     }
+     #espaciofooter{
+        margin-bottom: 0px;
+     }
 }

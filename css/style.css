@@ -134,7 +134,7 @@ li .formacionD {
   font-family: "Times New Roman", Times, serif;
 }
 
-h2 {
+.subtitulos {
   margin-top: 20px;
   color: #04513c;
   font-size: 3.5rem;
@@ -156,11 +156,22 @@ h2 {
   border-radius: 10px;
 }
 
+.habilidades1 {
+  padding-bottom: 100px;
+}
+
 .shadow-container {
   background-color: #f6e7f7;
   color: #4f2152;
   border-radius: 20px;
   text-align: center;
+}
+.shadow-container .h2caja {
+  color: #4f2152;
+}
+.shadow-container .pcaja {
+  color: #2f333c;
+  font-weight: 600;
 }
 
 #tituloContacto {
@@ -237,12 +248,88 @@ h2 {
   margin-bottom: 155px;
 }
 
+/* FORMATO RESPONSIVE INDEX*/
 @media (max-width: 320px) {
   .informacion {
     width: 95%;
   }
 }
 
+/*FORMATO RESPONSIVE SOBRE MI*/
+/*TABLET*/
+@media (max-width: 768px) {
+  /*header*/
+  nav {
+    background-color: #4f2152;
+    padding-right: 500px;
+  }
+  /*main*/
+  /*imagenes*/
+  #imagenPorta {
+    width: 80%;
+    height: 300px;
+    margin-left: 90px;
+  }
+  #imagenColor {
+    width: 80%;
+    height: 300px;
+    margin-left: 90px;
+  }
+  /*letras del titulo y parrafos color*/
+  #h2Color {
+    margin-bottom: 30px;
+  }
+  #pColor {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+  /*cajas habilidades*/
+  .igualarCuadro {
+    height: 190px;
+  }
+  #h2Centrado {
+    padding-top: 10px;
+  }
+  #pCentrado {
+    padding-top: 25px;
+  }
+}
+/*Sobre mi - Movil*/
+@media (max-width: 320px) {
+  header {
+    margin-left: 300px;
+    margin-top: 5px;
+  }
+  h1 {
+    margin-bottom: 0px;
+    font-size: 1rem;
+  }
+  #soyMovil {
+    padding-left: 25px;
+    font-size: 1.3rem;
+  }
+  /*imagenes*/
+  #imagenPorta {
+    width: 80%;
+    height: 200px;
+    margin-left: 30px;
+  }
+  #imagenColor {
+    width: 80%;
+    height: 200px;
+    margin-left: 30px;
+  }
+  .habilidadesM {
+    font-size: 3rem;
+    margin-bottom: 25px;
+  }
+  .igualarCuadro {
+    margin-bottom: 15px;
+  }
+  #espaciofooter {
+    margin-bottom: 0px;
+  }
+}
 footer {
   background-color: #04513c;
   position: absolute;
