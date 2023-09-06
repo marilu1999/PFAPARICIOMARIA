@@ -1,1 +1,26 @@
+h1{
+    font-size: 3.5rem;
+    color: $fondo_verde;
+    margin-top: 25px;
+}
+p{
+    font-size: 1.5rem;
+    color: $letra_secundaria;
+    font-weight: 500;
+    font-family: letra;
+    text-align: center;
+}
+.carousel-item{
+    width: 40%;
+    height: 5%;
+    margin-left: 380px;
+    padding-bottom: 135px;
+}
+span{
+    background-color: $fondo_verde;
+}
 
+img{
+    height: 300px;
+    
+}

@@ -161,7 +161,7 @@ li .formacionD {
 }
 
 .shadow-container {
-  background-color: #f6e7f7;
+  background-color: rgb(203, 177, 237);
   color: #4f2152;
   border-radius: 20px;
   text-align: center;
@@ -192,19 +192,33 @@ li .formacionD {
   margin-right: 350px;
 }
 
-.habilidades {
-  font-size: 1rem;
+h1 {
+  font-size: 3.5rem;
+  color: #04513c;
+  margin-top: 25px;
 }
 
-.shadow-container {
-  background-color: rgba(69, 1, 78, 0.4);
-  color: #4f2152;
-  border-radius: 20px;
+p {
+  font-size: 1.5rem;
+  color: #2f333c;
+  font-weight: 500;
+  font-family: letra;
   text-align: center;
 }
 
-#tituloServicios {
-  text-align: center;
+.carousel-item {
+  width: 40%;
+  height: 5%;
+  margin-left: 380px;
+  padding-bottom: 135px;
+}
+
+span {
+  background-color: #04513c;
+}
+
+img {
+  height: 300px;
 }
 
 #clienteUno {
