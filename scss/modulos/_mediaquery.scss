@@ -36,15 +36,18 @@
      }
      /*cajas habilidades*/
      .igualarCuadro{
-        height: 190px;
+        height: 200px;
      }
      #h2Centrado{
         padding-top:10px ;
      }
      #pCentrado{
-        padding-top: 25px;
+        padding-top: 15px;
+        margin-bottom: 10px;
      }
-     
+     .pcaja{
+        margin-bottom: 0px;
+     }
     
 }
 /*Sobre mi - Movil*/
@@ -82,4 +85,8 @@
      #espaciofooter{
         margin-bottom: 0px;
      }
+}
+.pcaja{
+    margin-bottom: 10px;
+    margin-top: 15px;
 }

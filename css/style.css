@@ -169,9 +169,9 @@ li .formacionD {
 .shadow-container .h2caja {
   color: #4f2152;
 }
-.shadow-container .pcaja {
-  color: #2f333c;
-  font-weight: 600;
+
+.igualarCuadro {
+  height: 190px;
 }
 
 #tituloContacto {
@@ -196,6 +196,7 @@ h1 {
   font-size: 3.5rem;
   color: #04513c;
   margin-top: 25px;
+  text-align: center;
 }
 
 p {
@@ -207,18 +208,62 @@ p {
 }
 
 .carousel-item {
-  width: 40%;
-  height: 5%;
-  margin-left: 380px;
-  padding-bottom: 135px;
+  display: flex; /* Utiliza flexbox para centrar vertical y horizontalmente */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Ajusta la altura al 100% de la ventana */
+  text-align: center; /* Centra el contenido del item */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  top: 50%; /* Coloca los botones en la mitad superior */
+  transform: translateY(-50%); /* Alinea verticalmente los botones */
+  width: auto; /* Ajusta el ancho según el contenido */
+  background-color: transparent; /* Elimina el fondo del botón */
+  border: none; /* Elimina el borde del botón */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: #04513c; /* Define un color para los íconos de los botones */
+  font-size: 2rem; /* Ajusta el tamaño de los íconos */
+}
+
+.carousel-indicators {
+  text-align: center; /* Centra los indicadores horizontalmente */
+  position: absolute; /* Ajusta la posición de los indicadores */
+  bottom: 20px; /* Ajusta la posición vertical de los indicadores */
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+}
+
+.carousel-indicators button {
+  width: 12px; /* Ajusta el ancho de los indicadores */
+  height: 12px; /* Ajusta la altura de los indicadores */
+  background-color: #04513c; /* Color de fondo de los indicadores */
+  border: none; /* Elimina el borde de los indicadores */
+  margin: 0 5px; /* Agrega espacio entre los indicadores */
+  border-radius: 50%; /* Hace que los indicadores sean circulares */
+  opacity: 0.6; /* Ajusta la opacidad de los indicadores */
+}
+
+.carousel-indicators .active {
+  width: 12px; /* Ajusta el ancho del indicador activo */
+  height: 12px; /* Ajusta la altura del indicador activo */
+  background-color: #04513c; /* Color de fondo del indicador activo */
+  opacity: 1; /* Hace que el indicador activo sea completamente visible */
+}
+
+/* Añade estas reglas para centrar las imágenes dentro de los items del carousel */
+.carousel-inner .carousel-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 span {
   background-color: #04513c;
-}
-
-img {
-  height: 300px;
 }
 
 #clienteUno {
@@ -299,13 +344,17 @@ img {
   }
   /*cajas habilidades*/
   .igualarCuadro {
-    height: 190px;
+    height: 200px;
   }
   #h2Centrado {
     padding-top: 10px;
   }
   #pCentrado {
-    padding-top: 25px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+  .pcaja {
+    margin-bottom: 0px;
   }
 }
 /*Sobre mi - Movil*/
@@ -344,6 +393,11 @@ img {
     margin-bottom: 0px;
   }
 }
+.pcaja {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
 footer {
   background-color: #04513c;
   position: absolute;
