@@ -1,15 +1,13 @@
-#tituloContacto{
-    font-size: 3rem;
-    margin-top: 1rem;
-    text-align: center;
-    color: $fondo_verde;
+
+.cuadrodef{
+    padding-bottom: 100px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
-#formulario{
-    margin-left: 150px;
-    margin-right: 150px;
-}
-#boton {
+#boton{
     background-color: $fondo_morado;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-top: 25px;
+    padding: 10px;
 }
