@@ -12,62 +12,15 @@ p {
     font-family: letra;
     text-align: center;
 }
-
-.carousel-item {
-    display: flex; /* Utiliza flexbox para centrar vertical y horizontalmente */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Ajusta la altura al 100% de la ventana */
-    text-align: center; /* Centra el contenido del item */
+.caro{
+    height: 300px;
+    padding-bottom: 100px;
+    height: 50%;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    top: 50%; /* Coloca los botones en la mitad superior */
-    transform: translateY(-50%); /* Alinea verticalmente los botones */
-    width: auto; /* Ajusta el ancho según el contenido */
-    background-color: transparent; /* Elimina el fondo del botón */
-    border: none; /* Elimina el borde del botón */
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    color: $fondo_verde; /* Define un color para los íconos de los botones */
-    font-size: 2rem; /* Ajusta el tamaño de los íconos */
-}
-
-.carousel-indicators {
-    text-align: center; /* Centra los indicadores horizontalmente */
-    position: absolute; /* Ajusta la posición de los indicadores */
-    bottom: 20px; /* Ajusta la posición vertical de los indicadores */
-    width: 100%; /* Ajusta el ancho al 100% del contenedor */
-}
-
-.carousel-indicators button {
-    width: 12px; /* Ajusta el ancho de los indicadores */
-    height: 12px; /* Ajusta la altura de los indicadores */
-    background-color: $fondo_verde; /* Color de fondo de los indicadores */
-    border: none; /* Elimina el borde de los indicadores */
-    margin: 0 5px; /* Agrega espacio entre los indicadores */
-    border-radius: 50%; /* Hace que los indicadores sean circulares */
-    opacity: 0.6; /* Ajusta la opacidad de los indicadores */
-}
-
-.carousel-indicators .active {
-    width: 12px; /* Ajusta el ancho del indicador activo */
-    height: 12px; /* Ajusta la altura del indicador activo */
-    background-color: $fondo_verde; /* Color de fondo del indicador activo */
-    opacity: 1; /* Hace que el indicador activo sea completamente visible */
-}
-
-/* Añade estas reglas para centrar las imágenes dentro de los items del carousel */
-.carousel-inner .carousel-item img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-}
-
-span {
-    background-color: $fondo_verde;
-}
+img{
+    padding-top: 40px;
+    padding-right: 240px;
+    padding-left: 240px;
+    padding-bottom: 40px;
+    height: 400px;}
