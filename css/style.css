@@ -209,16 +209,19 @@ p {
 
 .caro {
   height: 300px;
-  padding-bottom: 100px;
   height: 50%;
+  margin-bottom: 50px;
 }
 
-img {
+.img1 {
   padding-top: 40px;
   padding-right: 240px;
   padding-left: 240px;
-  padding-bottom: 40px;
   height: 400px;
+}
+
+.imagenesMaqueta {
+  padding-bottom: 100px;
 }
 
 #clienteUno {
@@ -354,6 +357,11 @@ img {
   margin-top: 15px;
 }
 
+@media (min-width: 320px) { /*vista movil de portafolio*/
+  .pPortafolio {
+    font-size: 2rem;
+  }
+}
 footer {
   background-color: #04513c;
   position: absolute;
