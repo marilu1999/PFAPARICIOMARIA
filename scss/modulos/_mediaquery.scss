@@ -93,8 +93,31 @@
 
    
 }
+/*portafolio.html*/
+.caro{
+    @media (max-width:320px) {height: 300px;
+    height: 50%;
+    margin-bottom: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+        
+    }
+    
+}
 
+.img1{
+    @media (max-width:320px) {
+        height: 200px;  
+    }
+    @media (max-width:768px) {
+        height: 300px;
+        
+    }
+  
+}
+    
 
+/* Contacto.html*/
 .cuadrodef{
     @media (max-width:320px) {
     padding-bottom: 100px;
@@ -110,5 +133,6 @@
         
     }
 }
+
     
  
