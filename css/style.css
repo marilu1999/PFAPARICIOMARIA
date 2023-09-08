@@ -217,6 +217,13 @@ p {
   height: 400px;
 }
 
+.cuadroImg {
+  background-color: rgba(75, 0, 85, 0.4);
+  margin-top: 25px;
+  padding-right: 10px;
+  border-radius: 25px;
+}
+
 #clienteUno {
   margin-top: 3rem;
   width: 170px;
@@ -224,38 +231,32 @@ p {
   margin-bottom: 3rem;
 }
 
-#clienteDos {
+.clienteDos {
+  margin-top: 3rem;
   width: 130px;
   height: 130px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 3rem;
+  margin-right: 25px;
+  margin-left: 15px;
 }
 
-.testimonial {
-  margin-top: 15px;
-  margin-bottom: 25px;
+#rese {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: #04513c;
+  font-weight: 800;
 }
 
-.testimonioUno {
-  background-color: rgba(75, 0, 85, 0.4);
-  border-radius: 20px;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 250px;
-  margin-right: 250px;
+.rese1 {
+  padding-bottom: 25px;
 }
 
-.testimonioDos {
-  background-color: rgba(75, 0, 85, 0.4);
-  border-radius: 20px;
-  text-align: center;
-  margin-top: 15px;
-  margin-left: 250px;
-  margin-right: 250px;
-  height: 355px;
-  margin-bottom: 155px;
+.boton_reseña {
+  margin-bottom: 100px;
+  margin-top: 25px;
+  background-color: #4f2152;
 }
 
 /* FORMATO RESPONSIVE INDEX*/
@@ -382,6 +383,14 @@ p {
 @media (max-width: 320px) {
   .Contactame {
     font-size: 3rem;
+  }
+}
+
+/*cliente.html*/
+@media (max-width: 320px) {
+  .clienteDos {
+    padding-right: 50px;
+    margin-left: 150px;
   }
 }
 

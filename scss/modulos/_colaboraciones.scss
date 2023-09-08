@@ -1,37 +1,67 @@
+.cuadroImg{
+    background-color: rgba(75, 0, 85, 0.4);
+    margin-top: 25px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
 #clienteUno{
     margin-top: 3rem;
     width: 170px;
     height: 130px;
     margin-bottom: 3rem;
 }
-#clienteDos{
+
+.clienteDos{
+
+    margin-top: 3rem;
     width: 130px;
     height: 130px;
     border-radius: 50%;
     overflow: hidden; 
-    margin-bottom: 3rem;}
-
-.testimonial{
-    margin-top: 15px;
-    margin-bottom: 25px;
-}    
-
-.testimonioUno {
-        background-color: rgba(75, 0, 85, 0.4);
-        border-radius: 20px;
-        text-align: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        margin-left: 250px;
-        margin-right: 250px;
+    margin-bottom: 3rem;
+    margin-right: 25px;
+    margin-left: 15px;
 }
-.testimonioDos {
-    background-color: rgba(75, 0, 85, 0.4);
-    border-radius: 20px;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 250px;
-    margin-right: 250px;
-    height: 355px;
-    margin-bottom: 155px;
+#rese{
+    font-family: $letra;
+    font-size: 2rem;
+    color: $fondo_verde;
+    font-weight: 800;
 }
+.rese1{
+    padding-bottom: 25px;
+}
+.boton_reseña{
+    margin-bottom: 100px;
+    margin-top: 25px;
+    background-color:$fondo_morado;
+}
+
+// .testimonial{
+//     margin-top: 15px;
+//     margin-bottom: 25px;
+// }    
+
+// .testimonioUno {
+//         background-color: rgba(75, 0, 85, 0.4);
+//         border-radius: 20px;
+//         text-align: center;
+//         margin-top: 1rem;
+//         margin-bottom: 1rem;
+//         margin-left: 250px;
+//         margin-right: 250px;
+// }
+// .testimonioDos {
+//     background-color: rgba(75, 0, 85, 0.4);
+//     border-radius: 20px;
+//     text-align: center;
+//     margin-top: 15px;
+//     margin-left: 250px;
+//     margin-right: 250px;
+//     height: 455px;
+//     margin-bottom: 155px;
+// }
+// #espacio{
+//     padding-bottom: 100px;
+
+// }
